@@ -20,6 +20,7 @@
     font-weight: bold;
     color: white;
     cursor: pointer;
+    margin-right: 30px;
 }
 .section-heading{
     max-width: 827px;
@@ -105,7 +106,7 @@ nav .menu a{
     /* max-height: 676px; */
 }
 
-#about{
+#about, #skills, #resume{
     padding-top: 130px;
 }
 #about .about-container{
@@ -129,9 +130,7 @@ nav .menu a{
     font-size: 20px;
     color: #474747;
 }
-#skills{
-    padding-top: 130px;
-}
+
 #skills .skills-container{
     width: 74%;
     max-width: 1260px;
@@ -143,7 +142,7 @@ nav .menu a{
 }
 .skill-box .skill-card{
     /* border: 1px solid red; */
-    max-height: 377px;
+    /* max-height: 377px; */
     max-width: 267px;
     padding: 30px;
     border-radius: 5px;
@@ -163,4 +162,39 @@ nav .menu a{
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+
+#resume .resume-container{
+    width: 74%;
+    max-width: 1260px;
+    margin: 113px auto 0px;
+    display: flex;
+    gap: 24px;
+}
+.resume-container .section-title{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom:30px ;
+}
+.resume-card{
+    max-width: 511px;
+    margin:30px 47px 0 0;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.card-info{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
 }
